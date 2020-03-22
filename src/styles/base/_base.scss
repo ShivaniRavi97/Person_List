@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  // background-color: lighten(	#C0C0C0,10%);
+  // background-color:darken(#808080,10%) ;
+  // background-color: #D3D3D3;
+  background-color: #C0C0C0;
+  
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+
+

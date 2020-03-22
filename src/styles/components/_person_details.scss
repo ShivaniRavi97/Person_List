@@ -1,0 +1,47 @@
+.pers_details{
+    display: flex;
+    flex-direction: row;
+  padding: $m-size;
+  border-bottom: .3rem solid darken( #f3f3f3, 10%);
+  background-color: #f3f3f3;
+    
+
+
+h3{
+    font-size: $m-size;
+
+}
+
+h2{
+    font-size: $m-size;
+    
+}
+.heads{
+    padding-top: 10px;
+    text-decoration: none;
+    padding-left:30px;
+    color: black;
+    flex-grow: 10;
+}
+
+.arrow{
+    align-self: center;
+    flex-grow: 1;
+    color: black;
+}
+img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+}
+
+.pers_details:hover{
+
+    background-color:  lighten(	#C0C0C0,13%); ;
+
+    .arrow{
+        color:	#808080;
+    }
+
+}
